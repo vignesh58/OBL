@@ -1,0 +1,156 @@
+/* Add styles for truYum application here */
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.header {
+    background-color:#2929a3;
+    color:#ffffff;
+    width: 100%;
+    height: 100px;
+    line-height: 100px       
+}
+ 
+img {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#Menu {
+float: right;
+color:#ffffff;
+width: auto;
+height: auto;
+color:#ffffff;
+margin-right: 30px;
+}
+ 
+#title {
+height: auto;
+font-size: 30px;
+color:#ffffff;
+margin-left: 100px;
+display: inline-block;
+}
+ 
+#logo {
+width: auto;
+height: auto;
+display: inline-block;
+margin-left: 10px;
+margin-top: 20px;
+}
+ 
+#menu-link {
+color:#ffffff;
+display: inline-block;
+margin-top: 20px;
+margin-right: 30px;
+}
+ 
+.article1 {
+    width: 100%;
+    height: 780px;
+    line-height: 780px;
+    text-align: center;
+}
+
+.article1 a {
+    background-color: #0000ff;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 0%;
+}
+
+.article {
+    margin: 100px;
+}
+
+.field-space {
+    width: 800px;
+}
+
+.field-pad {
+    padding-right: 10px;
+    text-align: left;
+}
+
+#movie-title {
+    padding-left: 60px;
+}
+
+#prod-tab {
+    margin: 0px;
+    width: 90%;
+    margin-top: 30px;
+}
+
+table {
+    margin: 50px; 
+}
+ 
+
+.total {
+    text-align: left;
+}
+ 
+#menuitems {
+    height: auto;
+    font-size: 30px; 
+}
+
+#status {
+    color: #21d421;
+    margin-top: 80px;
+}
+
+#cartEmpty {
+    color: #808080;
+    margin-top: 50px;
+}
+
+#sta-Notification {
+    color: #21d421;
+    margin: 30px 250px 30px;
+}
+
+th,td {
+ color:#000000;
+ padding: 20px 14px 14px 20px;
+ text-align: left;
+ word-break: keep-all;
+ 
+} 
+
+.pad {
+    margin-right: 20px;
+}
+ 
+.button {
+    color: #ffffff;
+    padding: 10px 40px 10px 20px;
+    background-color: #0000ff;
+}
+
+.copy {
+    width: 190px;
+    height: auto;
+    padding-top: 20px;
+    margin-left: 20px
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: #b3b3b3;
+    bottom: 0px;
+    position: fixed;
+}
+
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Menu</title>
+    <link rel="stylesheet" href="\final-check\WebContent\style\style.css">
+</head>
+
+<body>
+
+    <!-- navbar content -->
+
+    <header class="header">
+        <p id="title">Movie Cruiser</p>
+        <p id="logo">
+            <img src="\final-check\WebContent\images\logo.png"></img>
+        </p>
+
+        <p id="Menu">
+            <a href="movie-list-admin.html" id="menu-link">Movies</a>
+        </p>
+    </header>
+
+    <article class="article">
+
+        <div class="tab">
+            <p id=menuitems>Edit Movie</p>
+            <form action="edit-movie-status.html" method="get" name="edit-form" onsubmit="return validate()">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="field-title">
+                                <b>Title</b>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <input type="text" name="Title" class="field-space" id="field-title" placeholder="Enter the title">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="field-Gross">
+                                <b>Gross ($)</b>
+                            </label>
+                        </td>
+                        <td>
+                            <label for="field-active">
+                                <b>Active</b>
+                            </label>
+                        </td>
+                        <td>
+                            <label for="field-DOL">
+                                <b>Date of Launch</b>
+                            </label>
+                        </td>
+                        <td>
+                            <label for="field-Genre">
+                                <b>Genre</b>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="gross" id="field-Gross" placeholder="Enter the Gross">
+                        </td>
+                        <td>
+                            <input type="radio" name="active" id="yesact" value="Yes" checked>Yes
+                            <input type="radio" name="active" id="noact" value="No">No
+                        </td>
+                        <td>
+                            <input type="text" id="field-DOL" name="DOL" placeholder="dd/mm/yyyy">
+                        </td>
+                        <td>
+                            <select id="category" name="genre" id="field-Genre">
+                                <option value="category">category</option>
+                                <option value="SuperHero">SuperHero</option>
+                                <option value="Science fiction">Science fiction</option>
+                                <option value="Romance">Romance</option>
+                                <option value="Comedy">Comedy</option>
+                                <option value="Adventure">Adventure</option>
+                                <option value="Thriller">Thriller</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="teaser">
+                            <b>Has Teaser</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" class="button" name="Save" value="Save">
+
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+    </article>
+
+    <!-- Footer content -->
+
+    <footer class="footer">
+        <p class="copy">Copyright&copy; 2019</p>
+    </footer>
+    <script src="\final-check\WebContent\js\script.js"></script>
+</body>
+
+</html>
